@@ -1,0 +1,283 @@
+#sidebar_all {
+    min-height: auto;
+}
+
+@media screen and (min-width:767px) {
+    #sidebar_all {
+        min-height: 450px;
+    }
+}
+
+#main_index p {
+    height: 200px;
+}
+
+#css_day1 table tr td {
+    border: 1px solid rgb(34, 18, 18);
+}
+
+#css_day1_ex2 ul {
+    display: inline;
+}
+
+#css_day1_ex2 li {
+    display: inline;
+}
+
+#css_day2_ex4 {
+    background-color: blue;
+}
+
+#css_ex5_main h1 {
+    color: blue;
+}
+
+#css_ex5_main h2 {
+    color: blue;
+}
+
+#css_assi div {
+    width: 95%;
+    padding: auto;
+    border: 2px solid;
+    margin: auto;
+}
+
+#css_assi img {
+    border: 3px solid black;
+    margin: 25px;
+}
+
+#css_day2 {
+    height: 110px;
+    width: 340px;
+    background-color: #6CB4EE;
+    padding: 3px;
+}
+
+#css_day2_ex {
+    background-color: #6CB4EE;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+#css_day2_relative {
+    position: relative;
+    top: 55px;
+    padding: 5px;
+    background-color: #cae8ca;
+    border: 2px solid #4CAF50;
+}
+
+#css_day2_static {
+    position: fixed;
+    top: 55px;
+    padding: 5px;
+    background-color: #cae8ca;
+    border: 2px solid #4CAF50;
+}
+
+#css_day2_absolute {
+    position: static;
+    top: 55px;
+    padding: 5px;
+    background-color: #cae8ca;
+    border: 2px solid #4CAF50;
+}
+
+#css_day2_fixed {
+    position: absolute;
+    top: 55px;
+    padding: 5px;
+    background-color: #cae8ca;
+    border: 2px solid #4CAF50;
+}
+
+#p_css_day2 {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(54, 47, 163);
+    overflow: scroll;
+    color: white;
+}
+
+#cssday4 {
+    border: 2px solid blue;
+}
+
+@media screen and (max-width: 500px) {
+    #cssday4 {
+        border: 2px solid red;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .text {
+        font-size: 60px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .text {
+        font-size: 80px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .text {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #p {
+        background-color: rgb(5, 148, 153);
+    }
+}
+
+@media screen and (min-width: 600px) {
+    #p {
+        background-color: rgb(191, 226, 64);
+    }
+}
+
+@media screen and (min-width: 900px) {
+    #p {
+        background-color: rgb(29, 190, 150);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #p {
+        background-color: rgb(12, 36, 114);
+    }
+}
+
+.text_demo {
+    background-color: blue;
+}
+
+@media screen and (min-width: 500px) and (max-width: 600px) {
+    .text_demo {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+    .text_demo {
+        background-color: green;
+    }
+}
+
+.image_demo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box_image {
+    padding: 0px 4px;
+    flex: 25%;
+    width: 25%;
+}
+
+@media (max-width: 800px) {
+    .box_image {
+        flex: 25%;
+        width: 25%;
+    }
+}
+
+@media (max-width: 600px) {
+    .box_image {
+        flex: 50%;
+        width: 50%;
+    }
+}
+
+@media (max-width: 400px) {
+    .box_image {
+        flex: 100%;
+        width: 100%;
+    }
+}
+
+.p1_ex1 {
+    display: flex;
+}
+
+.h2_ex1 {
+    width: 100px;
+    border: 2px solid rgb(12, 11, 11);
+    padding: 50px;
+    margin-left: 25px;
+}
+
+.b_ex2 {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: blue;
+    text-align: center;
+}
+
+.a_ex2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.p1_ex {
+    display: flex;
+}
+
+#navb {
+    width: 100%;
+    background-color: rgb(27, 8, 14);
+    height: 50px;
+    text-align: center;
+}
+
+#navb a {
+    margin-left: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20pt;
+    color: rgb(212, 189, 212);
+}
+
+#panel,
+#flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+}
+
+#panel {
+    padding: 50px;
+}
+
+#panell,
+#flipp {
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+}
+
+#panell {
+    padding: 50px;
+}
+
+.ancestors * {
+    display: block;
+    border: 2px solid lightgrey;
+    color: lightgrey;
+    padding: 5px;
+    margin: 15px;
+}
+
+#p2 {
+    border: 2px solid black;
+}

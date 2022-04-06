@@ -1,0 +1,15 @@
+#assignment2 .main {
+    background-color: rgb(245, 233, 245);
+    height: 100%;
+    color: rgb(51, 47, 47);
+}
+
+#assignment2 img {
+    border: 3px solid black;
+    margin: 25px;
+}
+
+#p {
+    color: white;
+    padding: 20px;
+}
